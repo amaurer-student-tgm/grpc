@@ -1,0 +1,31 @@
+
+<electionData>
+  <regionID>33123</regionID>
+  <regionName>Linz Bahnhof</regionName>
+  <regionAddress>Bahnhofsstrasse 27/9</regionAddress>
+  <regionPostalCode>Linz</regionPostalCode>
+  <federalState>Austria</federalState>
+  <timestamp>2024-09-12 11:48:21</timestamp>
+  <countingData>
+    <party>
+      <partyID>OEVP</partyID>
+      <amountVotes>322</amountVotes>
+    </party>
+    <party>
+      <partyID>SPOE</partyID>
+      <amountVotes>301</amountVotes>
+    </party>
+    <party>
+      <partyID>FPOE</partyID>
+      <amountVotes>231</amountVotes>
+    </party>
+    <party>
+      <partyID>GRUENE</partyID>
+      <amountVotes>211</amountVotes>
+    </party>
+    <party>
+      <partyID>NEOS</partyID>
+      <amountVotes>182</amountVotes>
+    </party>
+  </countingData>
+</electionData>

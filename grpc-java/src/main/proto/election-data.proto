@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+service ElectionDataService {
+  rpc sendElectionData(ElectionRequest) returns (ElectionResponse);
+}
+
+message ElectionRequest {
+  Region region = 1;
+  repeated Party parties = 2;
+}
+
+message ElectionResponse {
+  string status = 1;
+}
+
+message Region {
+  int32 regionID = 1;
+  string regionName = 2;
+  string regionAddress = 3;
+  string regionPostalCode = 4;
+  string federalState = 5;
+  string timestamp = 6;
+}
+
+message Party {
+  string partyID = 1;
+  int32 amountVotes = 2;
+}
